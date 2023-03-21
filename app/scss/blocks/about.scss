@@ -1,6 +1,18 @@
 .about {
   padding: 100px 0;
 
+position: relative;
+  &::after{
+position: absolute;
+content: "";
+background-image: url("../../images/about-bg.png");
+right: 0;
+top: -60px;
+
+height: 275px;
+width: 235px;
+  }
+
   &-wrapper {
     display: flex;
     justify-content: space-between;
@@ -22,6 +34,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
+    @extend %wokrsans-400;
 
     color: #5c675a;
     margin-bottom: 50px;

@@ -7,5 +7,8 @@
   font-size: 50px;
 line-height: 58px;
 color: #091106;
-font-style: normal;
+}
+
+body{
+  @extend %wokrsans-800;
 }
