@@ -39,6 +39,7 @@ ul[class] {
 img {
     max-width: 100%;
     display: block;
+    object-fit: cover;
 }
 
 input,
@@ -56,5 +57,5 @@ body {
     justify-content: space-between;
     height: 100vh;
     overflow-x: hidden;
-    
+
 }

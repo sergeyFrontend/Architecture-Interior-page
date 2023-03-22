@@ -4,7 +4,7 @@
     font-style: normal;
     src:
         url('../fonts/WorkSans-SemiBold.woff2') format('woff2'),
-        url('../fonts/WorkSans-SemiBold.woff') format('font-woff');
+        url('../fonts/WorkSans-SemiBold.woff') format('woff');
     font-display: swap;
 }
 @font-face {
@@ -13,7 +13,7 @@
     font-style: normal;
     src:
         url('../fonts/WorkSans-Regular.woff2') format('woff2'),
-        url('../fonts/WorkSans-Regular.woff') format('font-woff');
+        url('../fonts/WorkSans-Regular.woff') format('woff');
     font-display: swap;
 }
 @font-face {
@@ -22,6 +22,6 @@
     font-style: normal;
     src:
         url('../fonts/WorkSans-Medium.woff2') format('woff2'),
-        url('../fonts/WorkSans-Medium.woff') format('font-woff');
+        url('../fonts/WorkSans-Medium.woff') format('woff');
     font-display: swap;
 }

@@ -40,7 +40,13 @@
     font-size: 18px;
     line-height: 18px;
     color: #fff;
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+     color:#4A8780;
+    }
   }
+
 
   &-info {
     display: flex;
@@ -92,7 +98,7 @@
 
   &-content__decor {
     position: absolute;
-    top: 62px;
+    top: 100px;
     left: 49%;
   }
   &-content__social-list{

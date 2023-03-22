@@ -1,0 +1,107 @@
+.services {
+  padding: 100px 0;
+  background-image: url("../images/services-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+
+  &__item {
+    padding: 35px 45px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    text-align: center;
+  }
+  &__item--visible{
+  background-color: transparent;
+  text-align: left;
+  padding: 0;
+  }
+&__item-img{
+  display: inline-block;
+  margin-bottom: 30px;
+}
+&__item-title{
+  margin-bottom: 30px;
+  font-size: 32px;
+line-height: 32px;
+@extend %wokrsans-500;
+}
+
+&__item__title-visible{
+  font-size: 50px;
+line-height: 1;
+margin-bottom: 20px;
+}
+&__item__descr-visible{
+  margin-bottom: 50px;
+}
+
+&__item-btn{
+  color: #FFFFFF;
+  padding: 20px 40px;
+  border: none;
+  background: #4A8780;
+  border-radius: 15px;
+}
+
+&__item-descr{
+  color: #5C675A;
+  font-size: 20px;
+line-height: 30px;
+@extend %wokrsans-400;
+}
+
+&__item--green{
+  background: #4A8780;
+  padding: 60px 70px 55px;
+  padding-top: 100px;
+  position: relative;
+  text-align: left;
+}
+&__item--green__image{
+  position: absolute;
+  top: 0;
+  right: 100px;
+}
+&__item--green__subtitle{
+  font-size: 35px;
+line-height: 35px;
+color: white;
+@extend %wokrsans-500;
+margin-bottom: 35px;
+}
+&__item--green__title{
+  font-size: 40px;
+  line-height: 40px;
+  color: white;
+  @extend %wokrsans-500;
+  margin-bottom: 35px;
+}
+&__item--green__wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+&__item--green__wrap p{
+  font-size: 18px;
+  line-height: 18px;
+  color: #fff;
+}
+
+&__item--green__wrap button{
+  padding: 15px 20px;
+  background: #3E706F;
+border-radius: 10px;
+text-align: center;
+border: none;
+}
+
+}
