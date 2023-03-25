@@ -14,23 +14,21 @@
     width: 274px;
   }
 
-
-  &__image {
-    position: relative;
-
+  &-inner{
+    display: flex;
+    align-items: center;
   }
+
+
 
   &-inner__block {
     z-index: 2;
-    margin-left: auto;
     max-width: 650px;
-    position: absolute;
     background: #FEFEFE;
     border-radius: 20px;
     padding: 50px;
-    top: 156px;
-    bottom: 156px;
-    right: 320px;
+    min-height: 385px;
+    transform: translateX(-100px);
   }
 
   &__title {

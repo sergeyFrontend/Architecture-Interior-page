@@ -38,7 +38,11 @@ function fileincludehtml() {
 //         .pipe(browserSync.stream())
 // };
 function styles() {
-  return src(["app/scss/style.scss"])
+  return src([
+    "node_modules/slick.css",
+    "node_modules/fancybox.min.css",
+    "app/scss/style.scss"
+  ])
     .pipe(scss({ outputStyle: "compressed" }))
     .pipe(concat("style.min.css"))
     .pipe(
@@ -55,7 +59,8 @@ function styles() {
 function scripts() {
   return src([
     "node_modules/jquery/dist/jquery.js",
-    "node_modules/jq-accordion/src/js/jquery.accordion.js",
+    "node_modules/slick.min.js",
+    "node_modules/fancybox.min.js",
     "app/js/main.js",
   ])
     .pipe(concat("main.min.js"))
